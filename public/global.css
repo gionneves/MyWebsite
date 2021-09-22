@@ -9,13 +9,13 @@ html, body {
 }
 
 nav {
+  padding: 1.0625em;
   background-color: #2d2d2d;
   text-align: center;
   border-bottom: #999 solid 1px;
 }
 
 a {
-  padding: 0.7em;
   color: #dfdfdf;
   text-decoration: none;
 }
@@ -55,14 +55,16 @@ a:visited {
 }
 
 .text-padding {
-  padding: 0 0.45em;
+  padding: 0 1.0625em;
 }
 
 .paragraph {
+  text-align: justify;
   padding-left: 1.0625em;
 }
 
 .paragraph-title {
+  text-align: justify;
   padding-left: 2.125em;
 }
 /*# sourceMappingURL=global.css.map */

@@ -3,7 +3,7 @@ $text-color-a: #dfdfdf;
 
 $g-len: 1.0625em;
 $f-len: 1.5em;
-$gf-len: 2.56;
+$gf-len: 2.56em;
 
 $magin-len: .15em;
 $padding-len: .2em;
@@ -21,13 +21,13 @@ html, body {
 }
 
 nav {
+    padding: $g-len;
 	background-color: #2d2d2d;
 	text-align: center;
     border-bottom: #999 solid 1px;
 }
 
 a {
-    padding: 0.7em;
 	color: $text-color-a;
 	text-decoration: none;
     &:hover {
@@ -68,12 +68,15 @@ a {
 
 // Text Classes
 .text-padding {
-    padding: 0 0.45em;
+    padding: 0 $g-len;
 }
 
 .paragraph {
+    text-align: justify;
     padding-left: $g-len;
     &-title {
+        text-align: justify;
         padding-left: $g-len*2;
     }
 }
+
