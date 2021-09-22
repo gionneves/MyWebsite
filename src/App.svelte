@@ -18,11 +18,3 @@
 		<Route path="/" component={Home} />
 	</div>
 </Router>
-
-<style>
-	nav {
-		padding: 0.7em;
-		background-color: #2d2d2d;
-		text-align: center;
-	}
-</style>
