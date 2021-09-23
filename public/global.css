@@ -10,7 +10,7 @@ html, body {
 
 nav {
   padding: 1.0625em;
-  background-color: #2d2d2d;
+  background-color: #282828;
   text-align: center;
   border-bottom: #999 solid 1px;
 }
@@ -22,11 +22,11 @@ a {
 
 a:hover {
   color: #dfdfdf;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #bbb;
+  color: #dfdfdf;
   text-decoration: none;
 }
 

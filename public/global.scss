@@ -22,7 +22,7 @@ html, body {
 
 nav {
     padding: $g-len;
-	background-color: #2d2d2d;
+	background-color: #282828;
 	text-align: center;
     border-bottom: #999 solid 1px;
 }
@@ -32,10 +32,10 @@ a {
 	text-decoration: none;
     &:hover {
         color: $text-color-a;
-        text-decoration: none;
+        text-decoration: underline;
     }
     &:visited {
-        color: #bbb;
+        color: $text-color-a;
         text-decoration: none;
     }
     
