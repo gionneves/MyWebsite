@@ -1,6 +1,10 @@
 $text-color-white: #f0f0f0;
 $text-color-a: #dfdfdf;
 
+$blue: blue + 123;
+$red: red + 82;
+$green: green + 123;
+
 $g-len: 1.0625em;
 $f-len: 1.5em;
 $gf-len: 2.56em;
@@ -25,20 +29,49 @@ nav {
 	background-color: #282828;
 	text-align: center;
     border-bottom: #999 solid 1px;
+
+
+    a {
+        color: $text-color-a;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        &:visited {
+            color: $text-color-a;
+            text-decoration: none;
+        }
+        &:visited:hover {
+            color: white;
+            text-decoration: none;
+        }
+        
+    }
 }
 
+
 a {
-	color: $text-color-a;
-	text-decoration: none;
+    color: $blue;
+    font-weight: bold;
+    text-decoration: none;
     &:hover {
-        color: $text-color-a;
+        color: $blue - 50;
         text-decoration: underline;
     }
     &:visited {
-        color: $text-color-a;
+        color: $blue;
         text-decoration: none;
     }
-    
+    &:visited:hover {
+        color: $blue - 50;
+        text-decoration: none;
+    }
+}
+
+h1 {
+    color: $green;
 }
 
 // ------ Classes
